@@ -4,12 +4,14 @@ import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerRespawnEvent
 
-
+/**
+ * @author Zod
+ */
 class RespawnEvent : Listener {
     //Zod - start
     @EventHandler
     fun PlayerRespawnEvent.kick() {
-        player.kickPlayer("")
+        player.kickPlayer("Don't die n00b")
     }
     //Zod - end
 }
