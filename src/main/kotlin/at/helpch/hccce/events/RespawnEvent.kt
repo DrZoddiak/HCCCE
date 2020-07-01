@@ -11,7 +11,7 @@ class RespawnEvent : Listener {
     //Zod - start
     @EventHandler
     fun PlayerRespawnEvent.kick() {
-        player.kickPlayer("")
+        player.kickPlayer("Don't die n00b")
     }
     //Zod - end
 }
